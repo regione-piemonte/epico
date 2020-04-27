@@ -7,38 +7,44 @@ categories:
   - data-collection
   - data-visualization
   - financial-reporting
-  - data-visualization
   - help-desk
 dependsOn:
   open:
-    - name: Php
-      versionMin: '5.6'
-      versionMax: '7.1'
+    - name: PHP
+      optional: false
+      version: '5.6'
+      versionMax: ''
+      versionMin: ''
     - name: MySQL
-      versionMin: '5.6'
+      optional: false
+      version: '5.6'
+      versionMax: ''
+      versionMin: ''
     - name: Apache Web Server
-      versionMin: '2.2'
-    - name: Code Igniter
-      version: '2.2'
+      optional: false
+      version: '2.4'
+      versionMax: ''
+      versionMin: ''
 description:
   it:
     features:
-      - Inserimento delle richieste di contributi finalizzati a ristorare la spesa del canone di locazione corrisposto dai cittadini, conduttori di alloggi di edilizia privata (Fondo sostegno alla locazione).
-      - Inserimento delle domande presentate dai cittadini residenti nei Comuni ad Alta Tensione Abitativa sottoposti a sfratto per morosità non volontaria, al fine di ottenere contributi a copertura della morosità (Fondo morosità incolpevole).
-      - Inserimento delle domande presentate dai cittadini residenti nei Comuni ad Alta Tensione Abitativa e nei Comuni con più di 15.000 abitanti, per ottenere contributi finalizzati a favorire la mobilità abitativa attraverso nuovi contratti di locazione a canone concordato (Agenzie sociali per la locazione).
-      - Inserimento delle proposte d’intervento afferenti il Programma di recupero e razionalizzazione di immobili e alloggi di Edilizia Residenziale Pubblica ai sensi dell’articolo 4 del Decreto Legge 28 marzo 2014, n.47, convertito con modificazioni dalla Legge 23 maggio 2014, n.80 (Programma di recupero alloggi e immobili ERP).
+      - Inserimento delle richieste di contributi del canone di locazione
+      - Inserimento delle domande presentate dai cittadini residenti sottoposti a sfratto
+      - Inserimento delle domande per ottenere contributi finalizzati a favorire la mobilità abitativa
+      - Inserimento delle proposte d’intervento
     genericName: Epico
-    longDescription: "Modulo per la richiesta di contributi finalizzati a favorire la mobilità abitativa dei cittadini residenti nei Comuni ad alta tensione abitativa e nei Comuni con più di 15.000 abitanti attraverso nuovi contratti di locazione a canone concordato. Modulo per la richiesta di contributi destinati ai cittadini residenti nei Comuni ad alta tensione abitativa sottoposti a sfratto per morosità non volontaria. Modulo per la richiesta di contributi finalizzati a ristorare la spesa del canone di locazione corrisposto dai cittadini, conduttori di alloggi di edilizia privata."
-    shortDescription: "Gestione domande relative all'edilizia sociale."
+    longDescription: Modulo per la richiesta di contributi finalizzati a favorire la mobilità
+      abitativa dei cittadini residenti nei Comuni ad alta tensione abitativa e
+      nei Comuni con più di 15.000 abitanti attraverso nuovi contratti di
+      locazione a canone concordato. Modulo per la richiesta di contributi
+      destinati ai cittadini residenti nei Comuni ad alta tensione abitativa
+      sottoposti a sfratto per morosità non volontaria. Modulo per la richiesta
+      di contributi finalizzati a ristorare la spesa del canone di locazione
+      corrisposto dai cittadini, conduttori di alloggi di edilizia privata.
     screenshots:
-    - screenshots/immagine1.png 
+      - screenshots/epico.png
+    shortDescription: Gestione domande relative all'edilizia sociale.
 developmentStatus: stable
-intendedAudience:
-  countries:
-    - it
-  scope:
-    - welfare
-    - healthcare
 it:
   conforme:
     gdpr: true
@@ -49,10 +55,9 @@ it:
   piattaforme:
     anpr: false
     cie: false
-    pagopa: false
-    spid: true
-  riuso:
-    codiceIPA: r_piemon
+    pagopa: true
+    spid: false
+landingURL: 'https://github.com/regione-piemonte/epico.git'
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: Regione Piemonte
@@ -73,7 +78,6 @@ releaseDate: '2017-06-02'
 softwareType: standalone/web
 softwareVersion: '1.0'
 url: 'https://github.com/regione-piemonte/epico'
-landingURL: 'https://github.com/regione-piemonte/epico.git'
 usedBy:
   - Regione Piemonte
   - Città Metropolitana di Torino
