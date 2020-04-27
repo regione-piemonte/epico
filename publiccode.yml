@@ -29,11 +29,16 @@ description:
   it:
     features:
       - Inserimento delle richieste di contributi del canone di locazione
-      - Inserimento delle domande presentate dai cittadini residenti sottoposti a sfratto
-      - Inserimento delle domande per ottenere contributi finalizzati a favorire la mobilità abitativa
+      - >-
+        Inserimento delle domande presentate dai cittadini residenti sottoposti
+        a sfratto
+      - >-
+        nserimento delle domande per ottenere contributi finalizzati a favorire
+        la mobilità abitativa
       - Inserimento delle proposte d’intervento
     genericName: Epico
-    longDescription: Modulo per la richiesta di contributi finalizzati a favorire la mobilità
+    longDescription: >
+      Modulo per la richiesta di contributi finalizzati a favorire la mobilità
       abitativa dei cittadini residenti nei Comuni ad alta tensione abitativa e
       nei Comuni con più di 15.000 abitanti attraverso nuovi contratti di
       locazione a canone concordato. Modulo per la richiesta di contributi
