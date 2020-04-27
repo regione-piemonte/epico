@@ -1,0 +1,130 @@
+<!--#include virtual="/servizi/epico/application/views/include/head.html" --><!--sugli altri servizi il BODY sta fuori -->
+
+<!--#include virtual="/servizi/epico/application/views/include/header.html" --> 
+<!--sugli altri servizi è diviso in :
+/assets/global/include/portal_header.html
+/assets/application/snip3/include/header.html
+-->
+
+
+
+<!--sull'APPLICATIVO è UN INCLUDE status.php -->
+<div class="panel panel-user row-fluid">
+  <div class="span10">
+    <dl class="dl-horizontal">
+      <dt class="utente">&nbsp;Utente</dt>
+      <dd>DEMO 22 CSI PIEMONTE - <strong>
+      Comune di Airasca      </strong> </dd>
+    </dl>
+  </div>
+  <div class="span2"> <a class="btn btn-default" href="/servizi/epico/index.php/domande/logout">esci&nbsp;</a> </div>
+</div>
+<!--FINE sull'APPLICATIVO è UN INCLUDE -->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+    $("#sceltacomune").change(function () {
+      if ( $(this).val() ) {
+          $(".buttonscelta").prop('disabled', false);
+      } else {
+        $(".buttonscelta").prop('disabled', true);
+      }
+    });    
+  });
+</script>
+
+
+<form action="/servizi/epico/index.php/domande" accept-charset="utf-8" class="form-horizontal validateForm" role="form" id="index" method="post"> 
+<!--sugli altri servizi è dentro a container -->      
+ 
+    
+  <div class="container">
+     <div class="row"><div class="col-md-12">
+<h3>Gestione domande relative ai bandi dell'edilizia sociale</h3>
+               <div class="alert alert-info">
+              <p>E' necessario scegliere un comune per cui operare</p>
+        </div>
+          <div class="form-group">
+         <label for="comune" class="col-sm-4 control-label">Scegli il comune su cui operare <span class="glyphicon-asterisk" title="Inserimento obbligatorio"><strong>[Obbligatorio]</strong></span> </label>
+         <div class="col-sm-4">
+           <select name="comune" id="sceltacomune" class="form-control">
+<option value="" selected="selected">-</option>
+<option value="001002">Airasca</option>
+<option value="001003">Ala di Stura</option>
+<option value="001004">Albiano d'Ivrea</option>
+<option value="001005">Alice Superiore</option>
+</select>         </div>
+         <div class="col-sm-4">
+           <!--<button id="btnsceltacomune" class="btn btn-primary" >imposta</button>-->
+         </div>
+
+       </div>
+       <!--/form-group-->
+  <div class="panel panel-default">
+         <div class="panel-heading">
+           <h4 class="panel-title">Agenzie Sociali per la Locazione</h4>
+         </div>
+         <div class="panel-body">
+         
+         <p>Modulo per la richiesta di contributi finalizzati a favorire la mobilità abitativa dei cittadini residenti nei Comuni ad alta tensione abitativa e nei Comuni con più di 15.000 abitanti attraverso nuovi contratti di locazione a canone concordato. </p>
+         
+         
+         <div class="form-group puls-group pull-right">
+          <div class="col-sm-12">          
+            <button class="btn btn-primary buttonscelta" disabled="disabled" name="tipo_domanda" type="submit" value="2">Accedi</button>       
+          </div>
+        </div>
+         
+         </div>
+       </div>
+       <!-- /panel panel-default-->
+
+
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h4 class="panel-title">Fondo per la Morosit&agrave; Incolpevole</h4>
+         </div>
+         <div class="panel-body">
+         
+         <p>Modulo per la richiesta di contributi destinati ai cittadini residenti nei Comuni ad alta tensione abitativa sottoposti a sfratto per morosità non volontaria</p>
+         
+         
+         <div class="form-group puls-group pull-right">
+          <div class="col-sm-12">          
+            <button type="submit" class="btn btn-primary buttonscelta" disabled="disabled" name="tipo_domanda" value="1">Accedi</button>       
+          </div>
+        </div>
+         
+         </div>
+       </div>
+       <!-- /panel panel-default-->
+
+
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h4 class="panel-title">Fondo sostegno alla locazione</h4>
+         </div>
+         <div class="panel-body">
+         
+         <p>Modulo per la richiesta di contributi finalizzati a ristorare la spesa del canone di locazione corrisposto dai cittadini, conduttori di alloggi di edilizia privata.
+		 </p>
+         
+         
+         <div class="form-group puls-group pull-right">
+          <div class="col-sm-12">          
+            <button type="submit" class="btn btn-primary" disabled="disabled">Accedi</button>       
+          </div>
+        </div>
+         
+         </div>
+       </div>
+       <!-- /panel panel-default-->
+
+   
+   
+  
+</div></div></div>
+</form><!--#include virtual="/servizi/epico/application/views/include/footerSP07.html" -->
+<!--sugli altri servizi è diviso in :
+/assets/application/snip3/include/footer.html
+/assets/global/include/footerSP07.html -->
