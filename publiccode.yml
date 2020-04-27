@@ -23,7 +23,10 @@ dependsOn:
 description:
   it:
     features:
-      - XXXXXXXXXXXXXXXXX
+      - Inserimento delle richieste di contributi finalizzati a ristorare la spesa del canone di locazione corrisposto dai cittadini, conduttori di alloggi di edilizia privata (Fondo sostegno alla locazione).
+      - Inserimento delle domande presentate dai cittadini residenti nei Comuni ad Alta Tensione Abitativa sottoposti a sfratto per morosità non volontaria, al fine di ottenere contributi a copertura della morosità (Fondo morosità incolpevole).
+      - Inserimento delle domande presentate dai cittadini residenti nei Comuni ad Alta Tensione Abitativa e nei Comuni con più di 15.000 abitanti, per ottenere contributi finalizzati a favorire la mobilità abitativa attraverso nuovi contratti di locazione a canone concordato (Agenzie sociali per la locazione).
+      - Inserimento delle proposte d’intervento afferenti il Programma di recupero e razionalizzazione di immobili e alloggi di Edilizia Residenziale Pubblica ai sensi dell’articolo 4 del Decreto Legge 28 marzo 2014, n.47, convertito con modificazioni dalla Legge 23 maggio 2014, n.80 (Programma di recupero alloggi e immobili ERP).
     genericName: Epico
     longDescription: "Modulo per la richiesta di contributi finalizzati a favorire la mobilità abitativa dei cittadini residenti nei Comuni ad alta tensione abitativa e nei Comuni con più di 15.000 abitanti attraverso nuovi contratti di locazione a canone concordato. Modulo per la richiesta di contributi destinati ai cittadini residenti nei Comuni ad alta tensione abitativa sottoposti a sfratto per morosità non volontaria. Modulo per la richiesta di contributi finalizzati a ristorare la spesa del canone di locazione corrisposto dai cittadini, conduttori di alloggi di edilizia privata."
     shortDescription: "Gestione domande relative all'edilizia sociale."
