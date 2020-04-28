@@ -37,14 +37,14 @@ Eseguire lo script epicodb.sql contenuto nella subdir /sql/ del progetto nel dat
 
 La prima scrittura del software è stata realizzata nel 2015 da 
  - [Alessandro Battezzati](mailto:battezzati@gmail.com) (progettista, sviluppatore)  
- - [Elena Abba](mailto:elena.abba@csi.it) (frontend developer) 
+ - [Elena Abba](mailto:elena.abba@csi.it) (sviluppatore html/css) 
 
 Per conto di Regione Piemonte
 
 La manutenzione evolutiva e realizzazione nuove features, sono state curate da
  - Alessandro Battezzati (progettista, sviluppatore) 
  - [Maurizio Peisino](mailto:strange97@gmail.com) (progettista, sviluppatore) 
- - Elena Abba (frontend developer)
+ - Elena Abba (sviluppatore html/css)
   
 nel periodo 2016-2019 per conto di Regione Piemonte
 
