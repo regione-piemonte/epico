@@ -47,6 +47,9 @@ description:
     shortDescription: Gestione domande relative all'edilizia sociale.
 developmentStatus: stable
 it:
+  countryExtensionVersion: "0.2"
+  riuso:
+    codiceIPA: r_piemon
   conforme:
     gdpr: true
     lineeGuidaDesign: false
