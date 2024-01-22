@@ -55,7 +55,6 @@ it:
     lineeGuidaDesign: false
     misureMinimeSicurezza: true
     modelloInteroperabilita: false
-  countryExtensionVersion: '0.2'
   piattaforme:
     anpr: false
     cie: false
